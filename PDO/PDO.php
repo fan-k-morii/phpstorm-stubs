@@ -882,7 +882,7 @@ class PDO  {
 	 * Emulated prepared statements does not communicate with the database server
 	 * so <b>PDO::prepare</b> does not check the statement.
 	 */
-	public function prepare ($statement, array $driver_options = array()) {}
+	public function prepare ($statement, $driver_options = array()) {}
 
 	/**
 	 * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
